@@ -20,7 +20,7 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "phone",
-    description: "(+237) 675 471 282",
+    description: "+241 077 089 776 / 065 15 99 88 ",
   },
   {
     icon: <FaEnvelope />,
@@ -30,7 +30,7 @@ const info = [
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "Douala, Cameroon",
+    description: "Libreville, GABON",
   },
 ];
 
