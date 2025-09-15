@@ -22,7 +22,7 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+237) 675 471 282",
+      fieldValue: "(+241) 065 97 30 19 ",
     },
     {
       fieldName: "Experience",
@@ -57,32 +57,31 @@ const experience = {
   title: 'My experience',
   description: "Below is an outline of my professional parcours!", 
   items: [
+       {
+      company: " APC Imprimerie Numerique ",
+      position: " Digital Marketing Consultant ",
+      duration: " Jul 2025 - Now",
+    },
+    {
+      company: " Imprimerie Numerique Silicon Valley",
+      position: " Digital Marketing Consultant",
+      duration: "Jan 2025 - Jun 2025 ",
+    },
+     {
+      company: " APC Formation professionelle ",
+      position: " Tech Trainer ",
+      duration: "August 2025 - Now",
+    },
     {
       company: "Media Ads",
-      position: "Full Stack Developer",
+      position: "Full Stack Developer Freelance",
       duration: "2022 - Present",
     },
     {
       company: "Media Ads",
-      position: "Digital Marketer/Advertiser",
+      position: "Digital Marketer/Advertiser Freelance",
       duration: "2022 - Present",
-    },
-    {
-      company: "CBC college",
-      position: "Computer science Teacher",
-      duration: "2023 - 2024",
-    },
-    {
-      company: "La Bonte College",
-      position: "Computer science Teacher",
-      duration: "2023 - 2024",
-    },
-    {
-      company: "Suzanna Comprehensive High School",
-      position: "Computer science Teacher",
-      duration: "2022 - 2023",
-    },
-     
+    },  
     {
       company: "E-commerce Startup ",
       position: "Freelance WordPress developer",
@@ -97,14 +96,14 @@ const education = {
   title: 'My Education',
   description:"Below is an outline of my educational parcours!", 
   items: [
-    {
-      institution: "High Tech Training center",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023-Present",
+   {
+      institution: "Great Learning Academy",
+      degree: " Certified Vibe Coder",
+      duration: "2025",
     },
     {
-      institution: "Online Course",
-      degree: "Digital Marketing/FB Ads",
+      institution: " Google Certification ",
+      degree: " Certified Digital Marketer / E-commerce Specialist ",
       duration: "2022",
     },
     {
