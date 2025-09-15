@@ -20,12 +20,12 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "phone",
-    description: "+241 077 089 776 / 065 159 988 ",
+    description: "+241 077 089 776 / 065 97 30 19 ",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "mboribrandon@gmai.com",
+    description: "mboribrandon@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
