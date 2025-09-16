@@ -25,20 +25,27 @@ import Stats from "@/components/Stats";
               various programming languages and technologies. 
             </p>
             {/* btn and socials */}
-            <div className="flex flex-col xl:flex-row items-center gap-8 ">
-              <Button variant ="outline" size="lg" className="uppercase flex items-center gap-2 " >
-              <a href={"./public/assets/MTBNCV.pdf"} download={"MTBN"}>
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-                </a>
-              </Button>
-              <div className="mb-8 xl:mb-0">
-                <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border 
-                border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent 
-                hover:text-primary hover:transition-all duration-500" />
-              </div>
-            </div>
-          </div>
+            // ...existing code...
+<div className="flex flex-col xl:flex-row items-center gap-8 ">
+  <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+    <a href="/assets/MTBNCV-en.pdf" download="MboriBrandonCV-English">
+      <span>Download CV (EN)</span>
+      <FiDownload className="text-xl" />
+    </a>
+  </Button>
+  <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+    <a href="/assets/MTBNCV-fr.pdf" download="MboriBrandonCV-Francais">
+      <span>Télécharger CV (FR)</span>
+      <FiDownload className="text-xl" />
+    </a>
+  </Button>
+  <div className="mb-8 xl:mb-0">
+    <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border 
+      border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent 
+      hover:text-primary hover:transition-all duration-500" />
+  </div>
+</div>
+// ...existing code...
           {/* photo */}
           <div className=" order-1 xl:order-none mb-8 xl:mb-0 " >
             <Photo />
